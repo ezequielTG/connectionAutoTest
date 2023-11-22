@@ -5,7 +5,8 @@ import pandas as pd
 
 url = 'https://www.speedtest.net/pt'
 headers = {
-    'User-Agent: Mozilla/5.0 (<system-information>) <platform> (<platform-details>) <extensions>'}
+    'User-Agent: Mozilla/5.0 (<system-information>) \
+     <platform> (<platform-details>) <extensions>'}
 
 repeat = 2
 load_repeat = 30
