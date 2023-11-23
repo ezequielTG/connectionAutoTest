@@ -1,3 +1,14 @@
+#A função run_test recebe como parâmetros o navegador(driver),
+#número de repetições do teste(num_test), uma lista com os 
+#tempos extimados para execução do código(ls_time), o dicionário
+#que guardará os resultados de download e upload(dic), endereço do
+#site(url) e o by(By).
+#
+#Ela acessa o site, encotra o botão e executa o teste. Por fim,
+#após o término da execução do teste, captura os resultados e
+#adiciona ao dicionário.
+
+
 from bs4 import BeautifulSoup
 import time
 
